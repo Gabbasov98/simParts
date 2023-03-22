@@ -1,7 +1,7 @@
 <!DOCTYPE html> <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>Мой гараж</title>
 </head>
+
 
 <body>
     <div class="wrapper">
@@ -410,7 +411,7 @@
 
             <div class="header-search">
                 <div class="header-search__show">
-                    <div class="header-search__btn">
+                    <div class="header-search__btn _toggle-search">
                         <img src="img/search.svg" alt="">
                         <span class="text16">Поиск</span>
                     </div>
@@ -424,13 +425,36 @@
                                     VIN
                                 </option>
                                 <option>
-                                    VIN 2
+                                    артикулу
                                 </option>
                                 <option>
-                                    VIN 3
+                                    названию модели
+                                </option>
+                                <option>
+                                    марке
                                 </option>
                             </select>
                         </fieldset>
+                    </div>
+                </div>
+                <div class="header-search__hidden">
+                    <div class="search-block">
+                        <div class="search-block__type">
+                            <span class="search-block__type-title">
+                                Поиск по VIN:
+                            </span>
+                        </div>
+                        <fieldset class="search-block__field fg">
+                            <input type="text" placeholder="Введите VIN автомобиля">
+                            <button class="search-block__btn m-btn m-btn-lg m-btn-primary">
+                                <span>Найти</span>
+                            </button>
+                        </fieldset>
+                        <button class="_toggle-search search-block__close m-btn-icon m-btn m-btn-lg m-btn-outline">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15 5L5 15M5 5L15 15" stroke="#344054" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
