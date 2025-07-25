@@ -8,6 +8,7 @@
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
     <title>Главная</title>
 </head>
 
@@ -18,26 +19,44 @@
             <div class="header-top">
                 <div class="container">
                     <div class="header-top__inner">
-                        <div class="header__links">
-                            <a href="" class="header__link">
-                                <span>О компании</span>
-                            </a>
-                            <a href="" class="header__link">
-                                <span>Гарантии и возврат</span>
-                            </a>
-                            <a href="" class="header__link">
-                                <span>Оплата и доставка</span>
-                            </a>
-                            <a href="" class="header__link">
-                                <span>Контакты</span>
-                            </a>
+
+                        <div class="header-contacts">
+                            <div class="header-contacts__row">
+                                <span>Бесплатно по РФ:</span> <a href="tel:+79299851418">+7 (929) 985-14-18</a>
+                            </div>
+                            <div class="header-contacts__row">
+                                <a href="mailto:sales@ns-parts.ru">sales@ns-parts.ru</a>
+                            </div>
+                            <button class="header-contacts__btn">
+                                <img src="img/arrow-down2.svg" alt="">
+                            </button>
+                            <div class="header-contacts__dropdown">
+                                <div class="header-contacts__item">
+                                    <a href="tel:+79299851418">+7 (929) 985-14-18</a>
+                                </div>
+                                <div class="header-contacts__item blue-text">
+                                    Александров Сергей
+                                </div>
+                                <div class="header-contacts__item">
+                                    <a href="tel:88009851418"> 8 (800) 985-14-18</a>
+                                </div>
+                                <div class="header-contacts__item blue-text">
+                                    Отдел продаж
+                                </div>
+                                <div class="header-contacts__item">
+                                    <a href="mailto:sales@ns-parts.ru">sales@ns-parts.ru</a>
+                                </div>
+                                <div class="header-contacts__item blue-text">
+                                    Отдел продаж
+                                </div>
+                            </div>
                         </div>
-                        <a href="tel:+79299851418" class="header__phone">
-                            <img src="img/phone.svg" alt="">
-                            <span class="text14">+7 (929) 985-14-18</span>
-                        </a>
+
+
+
 
                         <div class="header__action">
+
 
                             <button class="header__reg m-btn m-btn-sm m-btn-white">
                                 <span>Регистрация</span>
@@ -61,15 +80,12 @@
                         </a>
 
                         <div class="menu">
-                            <div class="menu__item _mob-show">
-                                <a href="" class="menu__item-link">
-                                    <span class="text16">
-                           На главную
-                        </span>
-                                </a>
-                            </div>
                             <div class="menu__item">
                                 <div class="menu__item-show">
+                                    <div class="catalog-icon">
+                                        <img src="img/catalog-icon7.svg" alt="" class="_view1">
+                                        <img src="img/catalog-icon8.svg" alt="" class="_view2">
+                                    </div>
                                     <span class="text16">
                             Каталоги
                         </span>
@@ -206,214 +222,9 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="menu__right">
-                                                <div class="menu-hint">
-                                                    <div class="menu-hint__img">
-                                                        <img src="img/worker2.webp" alt="">
-                                                    </div>
-                                                    <div class="menu-hint__info">
-                                                        <div class="text16 medium-weight">
-                                                            Не можете найти что-то <br>
-            в каталогах?
-                                                        </div>
-                                                        <div class="text14 gray-text">
-                                                            Обратитесь к нашим менеджераам
-                                                        </div>
-                                                    </div>
-                                                    <div class="menu-hint__nav">
-                                                        <button class="menu-hint__btn m-btn m-btn-sm m-btn-secondary">
-                                                            <span>Написать</span>
-                                                        </button>
-                                                        <button class="m-btn m-btn-sm m-btn-text">
-                                                            <span>Позвонить</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="menu__item">
-                                <div class="menu__item-show">
-                                    <span class="text16">
-                            Расходные материалы
-                        </span>
-                                    <img src="img/chevron-down.svg" alt="">
-                                </div>
-                                <div class="menu__item-hidden">
-                                    <div class="container">
-                                        <div class="menu__inner">
-                                            <div class="menu__left">
-                                                <div class="menu__col">
-                                                    <div class="text14 medium-weight default-blue-text">
-                                                        Каталоги запчастей
-                                                    </div>
-                                                    <div class="menu__groups menu__groups--2">
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Запчасти
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Оригинальные каталоги <br>от производителей
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="menu__col">
-                                                    <div class="text14 medium-weight default-blue-text">
-                                                        Сервисы
-                                                    </div>
-                                                    <div class="menu__groups">
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon7.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Поиск по VIN
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Найдите запчасть<br> по номеру VIN
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="menu__right">
-                                                <div class="menu-hint">
-                                                    <div class="menu-hint__img">
-                                                        <img src="img/worker2.webp" alt="">
-                                                    </div>
-                                                    <div class="menu-hint__info">
-                                                        <div class="text16 medium-weight">
-                                                            Не можете найти что-то <br>
-            в каталогах?
-                                                        </div>
-                                                        <div class="text14 gray-text">
-                                                            Обратитесь к нашим менеджераам
-                                                        </div>
-                                                    </div>
-                                                    <div class="menu-hint__nav">
-                                                        <button class="menu-hint__btn m-btn m-btn-sm m-btn-secondary">
-                                                            <span>Написать</span>
-                                                        </button>
-                                                        <button class="m-btn m-btn-sm m-btn-text">
-                                                            <span>Позвонить</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <div class="menu__item-show">
-                                    <span class="text16">
-                            Каталоги ТО
-                        </span>
-                                    <img src="img/chevron-down.svg" alt="">
-                                </div>
-                                <div class="menu__item-hidden">
-                                    <div class="container">
-                                        <div class="menu__inner">
-                                            <div class="menu__left">
-                                                <div class="menu__col">
-                                                    <div class="text14 medium-weight default-blue-text">
-                                                        Каталоги запчастей
-                                                    </div>
-                                                    <div class="menu__groups menu__groups--2">
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Запчасти
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Оригинальные каталоги <br>от производителей
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="menu__col">
-                                                    <div class="text14 medium-weight default-blue-text">
-                                                        Сервисы
-                                                    </div>
-                                                    <div class="menu__groups">
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon7.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Поиск по VIN
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Найдите запчасть<br> по номеру VIN
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="menu__right">
-                                                <div class="menu-hint">
-                                                    <div class="menu-hint__img">
-                                                        <img src="img/worker2.webp" alt="">
-                                                    </div>
-                                                    <div class="menu-hint__info">
-                                                        <div class="text16 medium-weight">
-                                                            Не можете найти что-то <br>
-            в каталогах?
-                                                        </div>
-                                                        <div class="text14 gray-text">
-                                                            Обратитесь к нашим менеджераам
-                                                        </div>
-                                                    </div>
-                                                    <div class="menu-hint__nav">
-                                                        <button class="menu-hint__btn m-btn m-btn-sm m-btn-secondary">
-                                                            <span>Написать</span>
-                                                        </button>
-                                                        <button class="m-btn m-btn-sm m-btn-text">
-                                                            <span>Позвонить</span>
-                                                        </button>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="menu__item">
-                                <a href="" class="menu__item-link">
-                                    <span class="text16">
-                            Продажа авто
-                        </span>
-                                </a>
-                            </div>
-                            <div class="menu__item">
-                                <a href="" class="menu__item-link">
-                                    <span class="text16">
-                            Новинки
-                        </span>
-                                </a>
                             </div>
 
                             <div class="menu__links">
@@ -470,52 +281,13 @@
                         </div>
 
                         <div class="header-search">
-                            <div class="header-search__show">
-                                <div class="header-search__btn _toggle-search">
-                                    <img src="img/search.svg" alt="">
-                                    <span class="text16">Поиск</span>
-                                </div>
-                                <div class="header-search__method">
-                                    <div class="header-search__method-title text14">
-                                        по
-                                    </div>
-                                    <fieldset class="fg m-select">
-                                        <select>
-                                            <option selected>
-                                                VIN
-                                            </option>
-                                            <option>
-                                                артикулу
-                                            </option>
-                                            <option>
-                                                названию модели
-                                            </option>
-                                            <option>
-                                                марке
-                                            </option>
-                                        </select>
-                                    </fieldset>
-                                </div>
-                            </div>
-                            <div class="header-search__hidden">
-                                <div class="search-block">
-                                    <div class="search-block__type">
-                                        <span class="search-block__type-title">
-                                Поиск по VIN:
-                            </span>
-                                    </div>
-                                    <fieldset class="search-block__field fg">
-                                        <input type="text" placeholder="Введите VIN автомобиля">
-                                        <button class="search-block__btn m-btn m-btn-lg m-btn-primary">
-                                            <span>Найти</span>
-                                        </button>
-                                    </fieldset>
-                                    <button class="_toggle-search search-block__close m-btn-icon m-btn m-btn-lg m-btn-outline">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M15 5L5 15M5 5L15 15" stroke="#344054" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                            <div class="search-block">
+                                <fieldset class="search-block__field fg">
+                                    <input type="text" placeholder="Введите артикул детали">
+                                    <button class="search-block__btn m-btn m-btn-lg m-btn-primary">
+                                        <span>Найти</span>
                                     </button>
-                                </div>
+                                </fieldset>
                             </div>
                         </div>
 
@@ -523,62 +295,10 @@
                     </div>
                 </div>
             </div>
-            <div class="hint-block _mob-hide">
-                <div class="container">
-                    <div class="hint-block__inner">
-                        <div class="hint-block__icon">
-                            <img src="img/thumbs-up.svg" alt="">
-                        </div>
-                        <div class="hint-block__text">
-                            <div class="hint-block__title">
-                                <span class="text14 medium-weight">
-                    Не можете найти что-то в каталогах?
-                </span>
-                            </div>
-                            <div class="hint-block__desc">
-                                <span class="text14 gray-text">
-                    Обратитесь к нашим менеджераам
-                </span>
-                            </div>
-                        </div>
-                        <div class="hint-block__links">
-                            <a href="" class="hint-block__link">
-                                <span>Написать</span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.16675 10H15.8334M15.8334 10L10.0001 4.16669M15.8334 10L10.0001 15.8334" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                            <a href="" class="hint-block__link">
-                                <span>Позвонить</span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.16675 10H15.8334M15.8334 10L10.0001 4.16669M15.8334 10L10.0001 15.8334" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-            </div>
 
         </header>
         <main class="content">
-            <section class="main-search">
-                <div class="container">
-                    <form action="" class="main-search__form">
-                        <div class="main-search__left">
-                            <div class="main-search__field">
-                                <input type="text" placeholder="Введите VIN, название или марку">
-                            </div>
-                            <div class="main-search__hint text20 text18-mob gray-text">
-                                Найдите нужную запчасть сразу по VIN, названию или марке автомобиля. Это просто
-                            </div>
-                        </div>
-                        <button class="main-search__btn m-btn m-btn-2xl m-btn-primary">
-                            <span>Найти запчасть</span>
-                        </button>
-                    </form>
-                </div>
-            </section>
 
             <section class="main-collection">
                 <div class="container">
@@ -591,7 +311,7 @@
                                     </div>
                                     <img src="img/product-icon.svg" alt="" class="collection-card__icon">
                                     <div class="collection-card__content">
-                                        <h3 class="collection-card__title text30 semi-bold">
+                                        <h3 class="collection-card__title">
                                             Оригинальные каталоги
                                         </h3>
                                         <div class="collection-card__nav">
@@ -611,7 +331,7 @@
                                     </div>
                                     <img src="img/product-icon2.svg" alt="" class="collection-card__icon">
                                     <div class="collection-card__content">
-                                        <h3 class="collection-card__title text30 semi-bold">
+                                        <h3 class="collection-card__title">
                                             Запчасти для ТО
                                         </h3>
                                         <div class="collection-card__nav">
@@ -631,7 +351,7 @@
                                     </div>
                                     <img src="img/product-icon3.svg" alt="" class="collection-card__icon">
                                     <div class="collection-card__content">
-                                        <h3 class="collection-card__title text30 semi-bold">
+                                        <h3 class="collection-card__title">
                                             Каталоги расходников
                                         </h3>
                                         <div class="collection-card__nav">
@@ -651,7 +371,7 @@
                                     </div>
                                     <img src="img/product-icon4.svg" alt="" class="collection-card__icon">
                                     <div class="collection-card__content">
-                                        <h3 class="collection-card__title text30 semi-bold">
+                                        <h3 class="collection-card__title">
                                             Автохмия и косметика
                                         </h3>
                                         <div class="collection-card__nav">
@@ -665,429 +385,151 @@
 
                             </div>
                         </div>
-                    </div>
-                    <div class="main-collection__nav">
-                        <div class="swiper-button swiper-button-prev m-btn-outline">
-                            <img src="img/prev.svg" alt="">
+                        <div class="main-collection__nav">
+                            <div class="swiper-button swiper-button-prev m-btn-outline">
+                                <img src="img/prev2.svg" alt="">
+                            </div>
+                            <div class="swiper-button swiper-button-next m-btn-outline">
+                                <img src="img/next2.svg" alt="">
+                            </div>
                         </div>
-                        <div class="swiper-button swiper-button-next m-btn-outline">
-                            <img src="img/next.svg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section class="index-menu">
+                <div class="container">
+                    <div class="index-menu__grid">
+                        <div class="index-menu-card index-menu-card--catalog">
+                            <div class="index-menu-card__top">
+                                <img src="img/menu-icon9.svg" alt="">
+                                <div class="index-menu-card__title">
+                                    Каталоги запчастей
+                                </div>
+                            </div>
+                            <ul class="index-menu-card__links">
+                                <li>
+                                    <a href="">
+                                        <img src="img/menu-icon12.svg" alt="">
+                                        <span>Запчасти</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/menu-icon13.svg" alt="">
+                                        <span>Инструменты</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/menu-icon14.svg" alt="">
+                                        <span>Автохимия</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/menu-icon15.svg" alt="">
+                                        <span>Принадлежности</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="img/menu-icon16.svg" alt="">
+                                        <span>Электроника</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="index-menu-img index-menu-img--catalog">
+                            <img src="img/menu-img.webp" alt="">
+                        </div>
+                        <div class="index-menu-card index-menu-card--about">
+                            <div class="index-menu-card__top">
+                                <img src="img/menu-icon10.svg" alt="">
+                                <div class="index-menu-card__title">
+                                    О компании
+                                </div>
+                            </div>
+                            <ul class="index-menu-card__links2">
+                                <li><a href="">О компании</a></li>
+                                <li><a href="">Офисы продаж</a></li>
+                                <li><a href="">Реквизиты</a></li>
+                                <li><a href="">Стать партнером</a></li>
+                                <li><a href="">Оптовый отдел</a></li>
+                                <li><a href="">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="index-menu-img index-menu-img--about">
+                            <img src="img/menu-img2.webp" alt="">
+                        </div>
+                        <div class="index-menu-card">
+                            <div class="index-menu-card__top">
+                                <img src="img/menu-icon11.svg" alt="">
+                                <div class="index-menu-card__title">
+                                    Информация
+                                </div>
+                            </div>
+                            <ul class="index-menu-card__links2">
+                                <li><a href="">Наша география</a></li>
+                                <li><a href="">Заказы</a></li>
+                                <li><a href="">Оплата</a></li>
+                                <li><a href="">Доставка</a></li>
+                                <li><a href="">Гарантии</a></li>
+                                <li><a href="">Поддержка</a></li>
+                            </ul>
+                        </div>
+                        <div class="index-menu-img index-menu-img--info">
+                            <img src="img/menu-img3.webp" alt="">
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="popular">
+            <section class="advantages grayBg">
                 <div class="container">
-                    <div class="popular__top">
-                        <div class="info-block">
-                            <div class="info-block__subtitle text16 semi-bold default-blue-text">
-                                Покупайте прямо сейчас
+                    <div class="advantages__inner">
+                        <div class="advantage-card">
+                            <div class="advantage-card__icon m-icon _light">
+                                <img src="img/advantage-icon.svg" alt="">
                             </div>
-                            <h2 class="info-block__title display2 light-weight">
-                                Популярные предложения
-                            </h2>
-                            <p class="info-block__desc text20 text18-mob gray-text">
-                                Лучшие цены в интернете, помощь в покупке, удобные оплата и доставка
-                            </p>
-                        </div>
-                        <div class="popular__nav">
-                            <button class="popular__btn m-btn m-btn-xl m-btn-outline m-btn-outline-blue">
-                                <span>Смотреть все</span>
-                            </button>
-                            <button class="popular__btn m-btn m-btn-xl m-btn-primary">
-                                <span>Зима 2023</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="popular__grid">
-                        <div class="product-card">
-                            <a href="" class="product-card__img">
-                                <img src="img/product6.webp" alt="">
-                            </a>
-                            <button class="_add-favourite favourite-btn m-btn m-btn-md m-btn-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0003 1.66666L12.5753 6.88332L18.3337 7.72499L14.167 11.7833L15.1503 17.5167L10.0003 14.8083L4.85033 17.5167L5.83366 11.7833L1.66699 7.72499L7.42533 6.88332L10.0003 1.66666Z" stroke="#667085" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                            <div class="product-card__badges">
-                                <div class="m-badge _green">
-                                    <span class="text12">
-                В наличии
-            </span>
+                            <div class="advantage-card__info">
+                                <div class="advantage-card__title text20 text18-mob medium-weight">
+                                    Бесплатная доставка
                                 </div>
-                                <div class="m-badge _gray">
-                                    <span class="text12">
-                Поставка за 12 часов
-            </span>
+                                <div class="advantage-card__desc text16 gray-text">
+                                    Бесплатная доставка в пункты <br>самовывоза
                                 </div>
-                            </div>
-                            <div class="product-card__by">
-                                <span class="text14">
-            Osram
-        </span>
-                            </div>
-                            <a href="" class="product-card__title">
-                                <span class="text16 default-blue-text medium-weight">
-            Original Лампа галогеновая H4 P43t 12V 60/55W 3200
-        </span>
-                            </a>
-                            <div class="product-card__prices">
-                                <div class="product-card__price semi-bold">
-                                    <span class="text24">
-                256 ₽
-            </span>
-                                </div>
-
-                            </div>
-
-                            <div class="product-card__nav cart-buttons">
-                                <button class="_add-cart cart-btn m-btn m-btn-xl m-btn-primary">
-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.33301 0.833374H4.66634L6.89967 11.9917C6.97588 12.3754 7.1846 12.72 7.4893 12.9653C7.79399 13.2106 8.17526 13.3409 8.56634 13.3334H16.6663C17.0574 13.3409 17.4387 13.2106 17.7434 12.9653C18.0481 12.72 18.2568 12.3754 18.333 11.9917L19.6663 5.00004H5.49967M8.83301 17.5C8.83301 17.9603 8.45991 18.3334 7.99967 18.3334C7.53944 18.3334 7.16634 17.9603 7.16634 17.5C7.16634 17.0398 7.53944 16.6667 7.99967 16.6667C8.45991 16.6667 8.83301 17.0398 8.83301 17.5ZM17.9997 17.5C17.9997 17.9603 17.6266 18.3334 17.1663 18.3334C16.7061 18.3334 16.333 17.9603 16.333 17.5C16.333 17.0398 16.7061 16.6667 17.1663 16.6667C17.6266 16.6667 17.9997 17.0398 17.9997 17.5Z" stroke="white" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                    <span class="cart-btn__text1">В корзину</span>
-                                    <span class="cart-btn__text2">В корзине</span>
-                                </button>
-
-                                <div class='cartcalc min0 fg'>
-                                    <button class='ccalc-minus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.16699 10H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                        <!--                                667085-->
-                                    </button>
-                                    <input readonly type='text' value='1'>
-                                    <button class='ccalc-plus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.0003 4.16663V15.8333M4.16699 9.99996H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </button>
-                                </div>
-
                             </div>
                         </div>
 
-                        <div class="product-card">
-                            <a href="" class="product-card__img">
-                                <img src="img/product7.webp" alt="">
-                            </a>
-                            <button class="_add-favourite favourite-btn m-btn m-btn-md m-btn-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0003 1.66666L12.5753 6.88332L18.3337 7.72499L14.167 11.7833L15.1503 17.5167L10.0003 14.8083L4.85033 17.5167L5.83366 11.7833L1.66699 7.72499L7.42533 6.88332L10.0003 1.66666Z" stroke="#667085" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                            <div class="product-card__badges">
-                                <div class="m-badge _green">
-                                    <span class="text12">
-                В наличии
-            </span>
-                                </div>
-                                <div class="m-badge _gray">
-                                    <span class="text12">
-                Поставка за 12 часов
-            </span>
-                                </div>
+                        <div class="advantage-card">
+                            <div class="advantage-card__icon m-icon _light">
+                                <img src="img/advantage-icon2.svg" alt="">
                             </div>
-                            <div class="product-card__by">
-                                <span class="text14">
-            Osram
-        </span>
-                            </div>
-                            <a href="" class="product-card__title">
-                                <span class="text16 default-blue-text medium-weight">
-            Лампа накаливания W5W W2.1x9.5d 12V 5W 3200 10 шт.
-        </span>
-                            </a>
-                            <div class="product-card__prices">
-                                <div class="product-card__price semi-bold">
-                                    <span class="text24">
-                234 ₽
-            </span>
+                            <div class="advantage-card__info">
+                                <div class="advantage-card__title text20 text18-mob medium-weight">
+                                    Бесплатный возврат
                                 </div>
-
-                            </div>
-
-                            <div class="product-card__nav cart-buttons">
-                                <button class="_add-cart cart-btn m-btn m-btn-xl m-btn-primary">
-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.33301 0.833374H4.66634L6.89967 11.9917C6.97588 12.3754 7.1846 12.72 7.4893 12.9653C7.79399 13.2106 8.17526 13.3409 8.56634 13.3334H16.6663C17.0574 13.3409 17.4387 13.2106 17.7434 12.9653C18.0481 12.72 18.2568 12.3754 18.333 11.9917L19.6663 5.00004H5.49967M8.83301 17.5C8.83301 17.9603 8.45991 18.3334 7.99967 18.3334C7.53944 18.3334 7.16634 17.9603 7.16634 17.5C7.16634 17.0398 7.53944 16.6667 7.99967 16.6667C8.45991 16.6667 8.83301 17.0398 8.83301 17.5ZM17.9997 17.5C17.9997 17.9603 17.6266 18.3334 17.1663 18.3334C16.7061 18.3334 16.333 17.9603 16.333 17.5C16.333 17.0398 16.7061 16.6667 17.1663 16.6667C17.6266 16.6667 17.9997 17.0398 17.9997 17.5Z" stroke="white" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                    <span class="cart-btn__text1">В корзину</span>
-                                    <span class="cart-btn__text2">В корзине</span>
-                                </button>
-
-                                <div class='cartcalc min0 fg'>
-                                    <button class='ccalc-minus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.16699 10H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                        <!--                                667085-->
-                                    </button>
-                                    <input readonly type='text' value='1'>
-                                    <button class='ccalc-plus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.0003 4.16663V15.8333M4.16699 9.99996H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </button>
+                                <div class="advantage-card__desc text16 gray-text">
+                                    Возврат товара в пукнтах самовывоза <br>и офлайн-салонах
                                 </div>
-
                             </div>
                         </div>
 
-                        <div class="product-card">
-                            <a href="" class="product-card__img">
-                                <img src="img/product8.webp" alt="">
-                            </a>
-                            <button class="_add-favourite favourite-btn m-btn m-btn-md m-btn-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0003 1.66666L12.5753 6.88332L18.3337 7.72499L14.167 11.7833L15.1503 17.5167L10.0003 14.8083L4.85033 17.5167L5.83366 11.7833L1.66699 7.72499L7.42533 6.88332L10.0003 1.66666Z" stroke="#667085" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                            <div class="product-card__badges">
-                                <div class="m-badge _red">
-                                    <span class="text12">
-                Под заказ
-            </span>
-                                </div>
-                                <div class="m-badge _gray">
-                                    <span class="text12">
-                до 4 дней
-            </span>
-                                </div>
+                        <div class="advantage-card">
+                            <div class="advantage-card__icon m-icon _light">
+                                <img src="img/advantage-icon3.svg" alt="">
                             </div>
-                            <div class="product-card__by">
-                                <span class="text14">
-            Philips
-        </span>
-                            </div>
-                            <a href="" class="product-card__title">
-                                <span class="text16 default-blue-text medium-weight">
-            Лампа галогеновая H4 P43t 12V 60/55W 1 шт.
-        </span>
-                            </a>
-                            <div class="product-card__prices">
-                                <div class="product-card__price semi-bold">
-                                    <span class="text24">
-                82 ₽
-            </span>
+                            <div class="advantage-card__info">
+                                <div class="advantage-card__title text20 text18-mob medium-weight">
+                                    Огромный опыт
                                 </div>
-
-                            </div>
-
-                            <div class="product-card__nav cart-buttons">
-                                <button class="_add-cart cart-btn m-btn m-btn-xl m-btn-primary">
-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.33301 0.833374H4.66634L6.89967 11.9917C6.97588 12.3754 7.1846 12.72 7.4893 12.9653C7.79399 13.2106 8.17526 13.3409 8.56634 13.3334H16.6663C17.0574 13.3409 17.4387 13.2106 17.7434 12.9653C18.0481 12.72 18.2568 12.3754 18.333 11.9917L19.6663 5.00004H5.49967M8.83301 17.5C8.83301 17.9603 8.45991 18.3334 7.99967 18.3334C7.53944 18.3334 7.16634 17.9603 7.16634 17.5C7.16634 17.0398 7.53944 16.6667 7.99967 16.6667C8.45991 16.6667 8.83301 17.0398 8.83301 17.5ZM17.9997 17.5C17.9997 17.9603 17.6266 18.3334 17.1663 18.3334C16.7061 18.3334 16.333 17.9603 16.333 17.5C16.333 17.0398 16.7061 16.6667 17.1663 16.6667C17.6266 16.6667 17.9997 17.0398 17.9997 17.5Z" stroke="white" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                    <span class="cart-btn__text1">В корзину</span>
-                                    <span class="cart-btn__text2">В корзине</span>
-                                </button>
-
-                                <div class='cartcalc min0 fg'>
-                                    <button class='ccalc-minus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.16699 10H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                        <!--                                667085-->
-                                    </button>
-                                    <input readonly type='text' value='1'>
-                                    <button class='ccalc-plus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.0003 4.16663V15.8333M4.16699 9.99996H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </button>
+                                <div class="advantage-card__desc text16 gray-text">
+                                    15 лет работы на рынке <br>и десятки тысяч выполненных заказов
                                 </div>
-
                             </div>
                         </div>
 
-                        <div class="product-card">
-                            <a href="" class="product-card__img">
-                                <img src="img/product6.webp" alt="">
-                            </a>
-                            <button class="_add-favourite favourite-btn m-btn m-btn-md m-btn-icon">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0003 1.66666L12.5753 6.88332L18.3337 7.72499L14.167 11.7833L15.1503 17.5167L10.0003 14.8083L4.85033 17.5167L5.83366 11.7833L1.66699 7.72499L7.42533 6.88332L10.0003 1.66666Z" stroke="#667085" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </button>
-                            <div class="product-card__badges">
-                                <div class="m-badge _green">
-                                    <span class="text12">
-                В наличии
-            </span>
-                                </div>
-                                <div class="m-badge _gray">
-                                    <span class="text12">
-                Поставка за 12 часов
-            </span>
-                                </div>
-                            </div>
-                            <div class="product-card__by">
-                                <span class="text14">
-            Osram
-        </span>
-                            </div>
-                            <a href="" class="product-card__title">
-                                <span class="text16 default-blue-text medium-weight">
-            Original Лампа галогеновая H4 P43t 12V 60/55W 3200
-        </span>
-                            </a>
-                            <div class="product-card__prices">
-                                <div class="product-card__price semi-bold">
-                                    <span class="text24">
-                256 ₽
-            </span>
-                                </div>
-
-                            </div>
-
-                            <div class="product-card__nav cart-buttons">
-                                <button class="_add-cart cart-btn m-btn m-btn-xl m-btn-primary">
-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.33301 0.833374H4.66634L6.89967 11.9917C6.97588 12.3754 7.1846 12.72 7.4893 12.9653C7.79399 13.2106 8.17526 13.3409 8.56634 13.3334H16.6663C17.0574 13.3409 17.4387 13.2106 17.7434 12.9653C18.0481 12.72 18.2568 12.3754 18.333 11.9917L19.6663 5.00004H5.49967M8.83301 17.5C8.83301 17.9603 8.45991 18.3334 7.99967 18.3334C7.53944 18.3334 7.16634 17.9603 7.16634 17.5C7.16634 17.0398 7.53944 16.6667 7.99967 16.6667C8.45991 16.6667 8.83301 17.0398 8.83301 17.5ZM17.9997 17.5C17.9997 17.9603 17.6266 18.3334 17.1663 18.3334C16.7061 18.3334 16.333 17.9603 16.333 17.5C16.333 17.0398 16.7061 16.6667 17.1663 16.6667C17.6266 16.6667 17.9997 17.0398 17.9997 17.5Z" stroke="white" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                    <span class="cart-btn__text1">В корзину</span>
-                                    <span class="cart-btn__text2">В корзине</span>
-                                </button>
-
-                                <div class='cartcalc min0 fg'>
-                                    <button class='ccalc-minus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M4.16699 10H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                        <!--                                667085-->
-                                    </button>
-                                    <input readonly type='text' value='1'>
-                                    <button class='ccalc-plus m-btn m-btn-lg m-btn-outline m-btn-outline-blue2 m-btn-icon'>
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M10.0003 4.16663V15.8333M4.16699 9.99996H15.8337" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </button>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="worker">
-                <div class="container">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="worker__content">
-                                    <img src="img/user.svg" alt="" class="worker__icon">
-                                    <div class="worker__quote">
-                                        Поможем подобрать <br> запасные части, расскажем об особенностях производителе <br> и нюансах установки
-                                    </div>
-                                    <div class="worker__info">
-                                        <div class="worker__name text18 medium-weight">
-                                            — Константин Константинопольский
-                                        </div>
-                                        <div class="text16 gray-text">
-                                            Старший продавец-консультант Simparts
-                                        </div>
-                                    </div>
-                                    <div class="worker__nav">
-                                        <button class="m-btn m-btn-lg m-btn-secondary">
-                                            <span>Написать</span>
-                                        </button>
-                                        <button class="m-btn m-btn-lg m-btn-white">
-                                            <span>Позвонить</span>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="worker__img">
-                                    <img src="img/worker.webp" alt="">
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="worker__content">
-                                    <img src="img/user.svg" alt="" class="worker__icon">
-                                    <div class="worker__quote">
-                                        Поможем подобрать <br> запасные части, расскажем об особенностях производителе <br> и нюансах  2
-                                    </div>
-                                    <div class="worker__info">
-                                        <div class="worker__name text18 medium-weight">
-                                            — Константин Константинопольский
-                                        </div>
-                                        <div class="text16 gray-text">
-                                            Старший продавец-консультант Simparts
-                                        </div>
-                                    </div>
-                                    <div class="worker__nav">
-                                        <button class="m-btn m-btn-lg m-btn-secondary">
-                                            <span>Написать</span>
-                                        </button>
-                                        <button class="m-btn m-btn-lg m-btn-white">
-                                            <span>Позвонить</span>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="worker__img">
-                                    <img src="img/worker.webp" alt="">
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="worker__content">
-                                    <img src="img/user.svg" alt="" class="worker__icon">
-                                    <div class="worker__quote">
-                                        Поможем подобрать <br> запасные части, расскажем об особенностях производителе <br> и нюансах  3
-                                    </div>
-                                    <div class="worker__info">
-                                        <div class="worker__name text18 medium-weight">
-                                            — Константин Константинопольский
-                                        </div>
-                                        <div class="text16 gray-text">
-                                            Старший продавец-консультант Simparts
-                                        </div>
-                                    </div>
-                                    <div class="worker__nav">
-                                        <button class="m-btn m-btn-lg m-btn-secondary">
-                                            <span>Написать</span>
-                                        </button>
-                                        <button class="m-btn m-btn-lg m-btn-white">
-                                            <span>Позвонить</span>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="worker__img">
-                                    <img src="img/worker.webp" alt="">
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-
-            </section>
-
-            <section class="action">
-                <div class="container">
-                    <div class="action__inner">
-                        <div class="action__left">
-                            <div class="action__icon">
-                                <img src="img/check-circle.svg" alt="">
-                            </div>
-                            <div class="action__title text16">
-                                <b>Не забудьте подписаться <br> на нашу рассылку.</b>
-                                Скидки и предложения только для подписчиков!
-                            </div>
-                        </div>
-                        <div class="action__nav">
-                            <button class="action__btn m-btn m-btn-lg m-btn-white">
-                                <span>
-                    Подписаться
-                </span>
-                                <img src="img/arrow-right.svg" alt="">
-                            </button>
-                        </div>
                     </div>
                 </div>
 
@@ -1309,55 +751,7 @@
                 </div>
             </section>
 
-            <section class="advantages grayBg">
-                <div class="container">
-                    <div class="advantages__inner">
-                        <div class="advantage-card">
-                            <div class="advantage-card__icon m-icon _light">
-                                <img src="img/advantage-icon.svg" alt="">
-                            </div>
-                            <div class="advantage-card__info">
-                                <div class="advantage-card__title text20 text18-mob medium-weight">
-                                    Бесплатная доставка
-                                </div>
-                                <div class="advantage-card__desc text16 gray-text">
-                                    Бесплатная доставка в пункты <br>самовывоза
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="advantage-card">
-                            <div class="advantage-card__icon m-icon _light">
-                                <img src="img/advantage-icon2.svg" alt="">
-                            </div>
-                            <div class="advantage-card__info">
-                                <div class="advantage-card__title text20 text18-mob medium-weight">
-                                    Бесплатный возврат
-                                </div>
-                                <div class="advantage-card__desc text16 gray-text">
-                                    Возврат товара в пукнтах самовывоза <br>и офлайн-салонах
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="advantage-card">
-                            <div class="advantage-card__icon m-icon _light">
-                                <img src="img/advantage-icon3.svg" alt="">
-                            </div>
-                            <div class="advantage-card__info">
-                                <div class="advantage-card__title text20 text18-mob medium-weight">
-                                    Огромный опыт
-                                </div>
-                                <div class="advantage-card__desc text16 gray-text">
-                                    15 лет работы на рынке <br>и десятки тысяч выполненных заказов
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </section>
 
             <section class="qa grayBg">
                 <div class="container">
@@ -1930,6 +1324,7 @@
     <script src="js/libs.min.js"></script>
     <script src="js/openseadragon.min.js"></script>
     <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
 
 </body>
 
