@@ -74,24 +74,41 @@
 
                         <div class="header__action">
 
-                            <a href="" class="header__co m-btn m-btn-sm m-btn-text">
-                                <span>ООО «Автодорстрой-Агро»</span>
-                            </a>
+                            <div class="header-co">
+                                <div class="header-co__show m-btn m-btn-sm m-btn-text">
+                                    <span>ООО «Автодорстрой-Агро»</span>
+                                </div>
+                                <div class="header-co__hidden">
+                                    <div class="header-co__inner">
+                                        <ul class="header-co__links">
+                                            <li><a href="">Мой профиль</a></li>
+                                            <li><a href="">Корзина</a></li>
+                                            <li><a href="">Мои заказы</a></li>
+                                            <li><a href="">Избранное</a></li>
+                                            <li><a href="">Документы</a></li>
+                                            <li><a href="">Взаиморасчеты</a></li>
+                                            <li><a href="">Уведомления</a></li>
+                                            <li><a href="">Наценки</a></li>
+                                            <li><a href="">Пожаловаться</a></li>
+                                            <li><a href="" class="_red">Выйти</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
-                            <!--                <a href="" class="header__lk m-btn m-btn-sm m-btn-outline m-btn-outline-blue2">-->
-                            <!--                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                            <!--                        <path d="M16.6666 17.5V15.8333C16.6666 14.9493 16.3154 14.1014 15.6903 13.4763C15.0652 12.8512 14.2173 12.5 13.3333 12.5H6.66659C5.78253 12.5 4.93468 12.8512 4.30956 13.4763C3.68444 14.1014 3.33325 14.9493 3.33325 15.8333V17.5M13.3333 5.83333C13.3333 7.67428 11.8409 9.16667 9.99992 9.16667C8.15897 9.16667 6.66659 7.67428 6.66659 5.83333C6.66659 3.99238 8.15897 2.5 9.99992 2.5C11.8409 2.5 13.3333 3.99238 13.3333 5.83333Z" stroke="#0035BE" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>-->
-                            <!--                    </svg>-->
-                            <!--                    <span>Личный кабинет</span>-->
-                            <!--                </a>-->
                             <button class="header__garage m-btn m-btn-sm m-btn-outline">
                                 <span>Мои заказы</span>
                             </button>
                             <button class="_show-product header__cart m-btn m-btn-sm m-btn-secondary">
                                 <img src="img/shopping-cart.svg" alt="">
                                 <span>Корзина</span>
+                                <i class="pin">3</i>
+                            </button>
+                            <button class="header__notification m-btn m-btn-sm m-btn-secondary">
+                                <img src="img/notification.svg" alt="">
+                                <i class="pin">3</i>
                             </button>
 
                             <div class="cart-modal">
@@ -133,9 +150,6 @@
                                     <img src="img/arrow-right-white.svg" alt="">
                                 </button>
                             </div>
-                            <button class="header__logout m-btn m-btn-sm m-btn-secondary m-btn-icon">
-                                <img src="img/log-in.svg" alt="">
-                            </button>
 
                         </div>
                     </div>
@@ -163,137 +177,12 @@
                                     <img src="img/chevron-down.svg" alt="">
                                 </div>
                                 <div class="menu__item-hidden">
-                                    <div class="container">
-                                        <div class="menu__inner">
-                                            <div class="menu__left">
-                                                <div class="menu__col">
-                                                    <div class="text14 medium-weight default-blue-text">
-                                                        Каталоги запчастей
-                                                    </div>
-                                                    <div class="menu__groups menu__groups--2">
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Запчасти
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Оригинальные каталоги <br>от производителей
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon2.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Инструменты
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Каталог инструментов<br>и инвентаря
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon3.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Автохимия
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Масла, тормозные, охлаждающие жидкости автокосметика
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon4.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Принадлежности
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Украшения, тюнинг, брендирование и подарки
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon5.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Электроника
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Аккумуляторы, лампы, видеорегистраторы
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon6.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Аксессуары
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Шины и диски
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                                <div class="menu__col">
-                                                    <div class="text14 medium-weight default-blue-text">
-                                                        Сервисы
-                                                    </div>
-                                                    <div class="menu__groups">
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon7.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Поиск по VIN
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Найдите запчасть<br> по номеру VIN
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                        <a href="" class="menu-card">
-                                                            <div class="menu-card__icon">
-                                                                <img src="img/menu-icon8.svg" alt="">
-                                                            </div>
-                                                            <div class="menu-card__content">
-                                                                <div class="text16 medium-weight">
-                                                                    Гараж
-                                                                </div>
-                                                                <div class="menu-card__desc text14 gray-text">
-                                                                    Добавляйте свои автомобили <br>для быстрого поиска <br>нужных запчастей
-                                                                </div>
-                                                            </div>
-                                                        </a>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="menu__item-links">
+                                        <a href="">Оригинальные каталоги</a>
+                                        <a href="">Каталоги TecDoc</a>
+                                        <a href="">Каталог ТО</a>
+                                        <a href="">Запасные части</a>
+                                        <a href="">Масла и жидкости</a>
                                     </div>
                                 </div>
                             </div>

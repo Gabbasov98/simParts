@@ -38,23 +38,6 @@
 .header__cart {
   position: relative;
 }
-.header__cart.m-btn-sm {
-  padding: 0 6px;
-}
-.header__cart.m-btn-sm img:first-child {
-  margin-right: 2px;
-}
-.header__cart .number {
-  position: absolute;
-  right: -6px;
-  top: -6px;
-  font-size: 11px;
-  color: #fff;
-  padding: 1px 4px;
-  border-radius: 50%;
-  background-color: #ff0000;
-}
-
 .personal-manager-top {
   position: relative;
   cursor: pointer;
